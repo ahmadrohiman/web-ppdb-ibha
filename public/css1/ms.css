@@ -1,0 +1,14 @@
+.navbar-nav.ms-auto {
+    margin-left: auto;
+}
+
+/* Atau, alternatif lain menggunakan flexbox */
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Pada elemen navbar-nav di sebelah kiri */
+.navbar-nav {
+    margin-right: auto;
+}
